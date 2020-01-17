@@ -1,6 +1,6 @@
 ---
 
-- hosts: 'dc:!ansible'
+- hosts: 'dc'
   become: yes 
   vars:
     doc_root: "/var/www/html"
